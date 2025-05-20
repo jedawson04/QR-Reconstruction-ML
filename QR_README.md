@@ -10,6 +10,3 @@ the file output method takes in a QR code object, and the message and ecl used a
 
 ## `gen_set.py` and `gen_set_big.py`
 this files both generate sets of qr codes by calling gen qr numerous times in loops. The message length encoded and number of iterations, as well as the stratification of ecl and masking used can all be changed.
-
-## `no_hidden_layers_dense/torchFF.ipynb` - 
-This notebook is used to load the training data from CSV into a DataFrame, make transformations based on fixed pixels and the format of the Feed Forward model, and then predict original QR's based on a subset of the DFT. Loops for training on a single L value with testing across different epochs, and for varying L with a given number of epochs are present. At the end of the file is code to generate graphs based on the results of testing.
